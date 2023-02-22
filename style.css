@@ -1,3 +1,26 @@
 body {
     margin: 0;
 }
+
+.flex_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#first {
+    width: 33vw;
+    height: 100vh;
+    background-color: rgb(169, 112, 51);
+}
+
+#second {
+    width: 33vw;
+    height: 100vh;
+    background-color: rgb(73, 101, 75);
+}
+
+#third {
+    width: 33vw;
+    height: 100vh;
+    background-color: rgb(93, 98, 125);
+}
